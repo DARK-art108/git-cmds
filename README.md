@@ -49,4 +49,17 @@ $ git rebase main
 ```
 $ git remote add <alias> <url>
 ```
+
+```
+git checkout main
+git pull
+git checkout my-feature-branch
+git merge main
+```
+```
+git checkout main
+git pull upstream main
+git checkout my-feature-branch
+git rebase main
+```
  
